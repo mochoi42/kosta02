@@ -10,4 +10,9 @@ public class IndexController {
 	public String index() {
 		return "Hello~";
 	}
+	
+	@GetMapping("/list")
+	public String list() {
+		return "list";
+	}
 }
